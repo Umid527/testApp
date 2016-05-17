@@ -5,7 +5,7 @@
         .module('app.videochat', [])
         .controller('VideoChatController', VideoChatController);
     
-    VideoChatController.$inject =  ['$scope', ‘$log’’];
+    VideoChatController.$inject =  ['$scope', '$log'];
     
     function VideoChatController($scope, $log) {
         var vm = this;
